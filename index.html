@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="homepage.css">
+  <title>Todo List</title>
+</head>
+<body>
+  <div class="box-container">
+    <div class="container">
+      <h1>Todo List <span id="currentDateTime"></span></h1>
+      <div>
+        <input type="text" id="newTask" placeholder="Add a new task...">
+
+        <button id="taskbtn" onclick="addTask()"><i class="fa fa-plus"></i></button>
+      </div>
+      <div id="taskContainer" class="task-container">
+        <ul id="taskList"></ul>
+      </div>
+      <div>
+        <button id="toggleCompletedTasksBtn" onclick="toggleCompletedTasks()">Show Completed Tasks</button>
+        <button onclick="clearTasks()">Clear All Tasks</button>
+      </div>
+      <div id="completedTaskContainer" class="task-container">
+        <ul id="completedTaskList"></ul>
+      </div>
+    </div>
+  </div>
+  <script src="jsss.js"></script>
+</body>
+</html>

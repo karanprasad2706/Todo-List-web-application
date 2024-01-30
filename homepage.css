@@ -1,0 +1,121 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, rgb(255, 87, 57), rgb(247, 162, 93));
+}
+
+.box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(235, 231, 231, 0.934); /* Grey color with transparency */
+  backdrop-filter: blur(10px); 
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#currentDateTime {
+  font-size: 14px;
+  color: #777;
+}
+
+input[type='text'] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(237, 234, 234, 0.934); /* Grey color with transparency */
+  backdrop-filter: blur(10px); 
+  border-radius: 4px;
+}
+
+button {
+  background-color: #f56032;
+  color: #00423f;
+  border: 0;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff9347;
+}
+
+.task-container {
+  margin-top: 20px;
+}
+
+#taskList,
+#completedTaskList {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delete-task {
+  background-color: #e74c3c;
+  color: #a39cf8;
+  border: 0;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-task:hover {
+  background-color: #c0392b;
+}
+
+.fa-plus {
+  margin-right: 5px;
+}
+
+.task-container li {
+  text-align: center;
+}
+
+.task-container li .fa-trash {
+  color: #f44336;
+  cursor: pointer;
+  visibility: hidden;
+  margin-left: 5px;
+}
+
+.task-container li:hover .fa-trash {
+  visibility: visible;
+}
+
+.checkbox-container {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#completedTaskContainer {
+  display: none;
+}
