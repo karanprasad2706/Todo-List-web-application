@@ -14,3 +14,4 @@ LGMVIP Web Developer Internship
 Task: Intermediate Level - Task 4
 Languages: HTML, CSS, JavaScript
 IDE: Microsoft Visual Studio
+
