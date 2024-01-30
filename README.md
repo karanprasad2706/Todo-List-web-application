@@ -1,4 +1,4 @@
-Just completed Intermediate Level -Task 4 at LGMVIP Internship! I've successfully created a Todo List web application using HTML, CSS, and JavaScript. This dynamic and user-friendly application allows users to manage their tasks effectively. Here's an overview of the features:
+Just completed Bignner Level -Task 1 at LGMVIP Internship! I've successfully created a Todo List web application using HTML, CSS, and JavaScript. This dynamic and user-friendly application allows users to manage their tasks effectively. Here's an overview of the features:
 
 Explained Features:
 
